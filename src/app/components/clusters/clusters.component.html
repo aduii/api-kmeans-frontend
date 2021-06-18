@@ -1,0 +1,54 @@
+<h1>{{title1}}</h1>
+<div class="container">
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>date</th>
+            <th>result</th>
+            <th>age</th>
+            <th>sex</th>
+            <th>institution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prueba of pruebas">
+            <td>{{prueba.id}}</td>
+            <td>{{prueba.fecha}}</td>
+            <td>{{prueba.resultado}}</td>
+            <td>{{prueba.edad}}</td>
+            <td>{{prueba.sexo}}</td>
+            <td>{{prueba.institucion}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<h1>{{title2}}</h1>
+<div class="container">
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>date</th>
+            <th>result</th>
+            <th>age</th>
+            <th>sex</th>
+            <th>institution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prueba of pruebas2">
+            <td>{{prueba.id}}</td>
+            <td>{{prueba.fecha}}</td>
+            <td>{{prueba.resultado}}</td>
+            <td>{{prueba.edad}}</td>
+            <td>{{prueba.sexo}}</td>
+            <td>{{prueba.institucion}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+
+
